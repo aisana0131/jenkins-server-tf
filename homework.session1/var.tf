@@ -13,3 +13,7 @@ variable "env" {
 variable "jenkins-sg"{
     default = "sg-0fb33d189d50abd6e"
 }
+
+variable "aisana-laptop-key"{
+    default = "~/.ssh/id_rsa.pub"
+    }
